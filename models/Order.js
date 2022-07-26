@@ -1,31 +1,26 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const OrderSchema = new mongoose.Schema(
-  {
- 
-    name: {
-      type: String,
-      required: true,
-    },
-    email: {
-        type: String,
-        required: true,
-    },
-    phone: {
-        type: String,
-        required: true,
-    },
-    adress: {
-        type: String,
-        required: true,
-      },
-    products:{
+const OrderSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  email: {
+    type: String,
+    required: true,
+  },
+  phone: {
+    type: String,
+    required: true,
+  },
+  adress: {
+    type: String,
+    required: true,
+  },
+  products: {
     type: mongoose.Schema.Types.Object,
-    ref: 'Product'
-    }
-   
-    
-}
-);
+    ref: "Product",
+  },
+});
 
-export default mongoose.model('Order', OrderSchema);
+export default mongoose.model("Order", OrderSchema);
