@@ -20,9 +20,8 @@ export const create = async (req, res) => {
       phone: req.body.phone,
       adress: req.body.adress,
       products: req.body.addedProducts,
+      price: req.body.totalPrice
     });
-    console.log(req.body);
-    console.log(doc);
     const order = await doc.save();
 
     res.json(order);

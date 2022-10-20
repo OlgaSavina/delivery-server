@@ -26,35 +26,35 @@ const products = [
     name: "Burger",
     price: 15,
     imageUrl:
-      "https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg",
+      "https://s1.1zoom.ru/big0/889/Fast_food_Hamburger_Buns_Meat_products_White_549661_1365x1024.jpg",
     shop: shops[1],
   },
   {
     name: "Fried-potatoes",
     price: 100,
     imageUrl:
-      "https://kartinkin.net/uploads/posts/2021-07/thumbs/1625177357_2-kartinkin-com-p-zharenaya-kartoshka-yeda-krasivo-foto-2.jpg",
+      "https://static5.depositphotos.com/1008105/521/i/450/depositphotos_5210334-stock-photo-french-fries-isolated-on-white.jpg",
     shop: shops[2],
   },
   {
     name: "Pizza",
     price: 150,
     imageUrl:
-      "https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_960_720.jpg",
+      "https://kartinkin.net/uploads/posts/2021-04/1617249653_40-p-pitstsa-na-belom-fone-krasivo-51.png",
     shop: shops[2],
   },
   {
     name: "Coca-cola",
     price: 30,
     imageUrl:
-      "https://kartinkin.net/uploads/posts/2022-02/1645474171_1-kartinkin-net-p-kartinki-koka-kola-1.jpg",
+      "https://thumbs.dreamstime.com/b/%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B8-%D0%B8-%D0%B1%D0%B0%D0%BD%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-coca-cola-%D0%BA%D0%B8%D1%88%D0%B8%D0%BD%D0%B5%D0%B2-%D0%BC%D0%BE%D0%BB%D0%B4%D0%BE%D0%B2%D0%B0-%D0%BE%D0%B5-%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8F-%D1%81-%D0%BF%D1%83%D1%82%D0%B5%D0%BC-188898630.jpg",
     shop: shops[2],
   },
   {
     name: "Pasta",
     price: 200,
     imageUrl:
-      "https://kartinkin.net/uploads/posts/2021-08/1629830764_6-kartinkin-com-p-krasivaya-podacha-pasti-yeda-krasivo-foto-7.jpg",
+      "https://attuale.ru/wp-content/uploads/2018/03/fetuchini-s-bekonom-1-800x533.jpg",
     shop: shops[2],
   },
 ];

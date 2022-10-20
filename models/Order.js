@@ -21,6 +21,10 @@ const OrderSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.Object,
     ref: "Product",
   },
+  price: {
+    type: Number,
+    required: true,
+  },
 });
 
 export default mongoose.model("Order", OrderSchema);
